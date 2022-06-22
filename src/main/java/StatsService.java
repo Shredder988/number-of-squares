@@ -1,6 +1,6 @@
 public class StatsService {
 
-    public long sum (long[] sales) {
+    public long sum(long[] sales) {
         long ans = 0;
         for (long sale : sales) {
             ans += sale;
@@ -20,7 +20,7 @@ public class StatsService {
                 maxi = i;
             }
         }
-        return maxi +1;
+        return maxi;
     }
 
     public int aboveAverage(long[] sales) {
